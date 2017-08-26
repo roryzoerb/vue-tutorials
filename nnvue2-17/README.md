@@ -12,7 +12,7 @@ From the Net Ninja's [Vue JS 2 Tutorials](https://www.youtube.com/playlist?list=
 
 ``` bash
 # install dependencies
-npm install
+npm install (or Yarn)
 
 # serve with hot reload at localhost:8080
 npm run dev
