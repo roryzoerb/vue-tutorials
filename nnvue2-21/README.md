@@ -1,12 +1,16 @@
-# nnvue2-21
+![Logo of the project](./../img/vue_logo.png)
 
-> A Vue.js project
+# vue-tutorial
+
+>#21 - Nesting Components Examples
+
+From the Net Ninja's [Vue JS 2 Tutorials](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa) on YouTube
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-npm install
+npm install (or Yarn)
 
 # serve with hot reload at localhost:8080
 npm run dev
