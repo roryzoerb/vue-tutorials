@@ -3,6 +3,7 @@
 # vue-tutorial
 
 >#17 - The Vue CLI
+>#19 - Nesting Components
 
 From the Net Ninja's [Vue JS 2 Tutorials](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa) on YouTube
 
