@@ -7,7 +7,7 @@ Vue.component('greeting', {
     },
     methods: {
         changeName: function() {
-            this.name = 'Phil'
+            this.name = 'Phil';
         }
     }
 });

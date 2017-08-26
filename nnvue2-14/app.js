@@ -8,7 +8,7 @@ var one = new Vue({
     },
     computed: {
         greet: function() {
-            return 'Hello from App One!'
+            return 'Hello from App One!';
         }
     }
 });
@@ -25,9 +25,9 @@ var two = new Vue({
     },
     computed: {
         greet: function() {
-            return 'Greetings from App Two!!'
+            return 'Greetings from App Two!!';
         }
     }
 });
 
-two.title = "changed from outside"
+two.title = "changed from outside";
