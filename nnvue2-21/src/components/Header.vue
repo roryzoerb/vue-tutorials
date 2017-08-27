@@ -7,14 +7,15 @@
 <script>
 import { bus } from "../main";
 export default {
-    props: {
-        title: {
-            type: String,
-            required: true
-        }
-    },
+    // props: {
+    //     title: {
+    //         type: String,
+    //         required: true
+    //     }
+    // },
     data () {
         return {
+            title: "Vue Ninjas"
             // title: 'Vue Ninjas'
         }
     },
