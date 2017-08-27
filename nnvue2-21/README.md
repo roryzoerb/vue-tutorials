@@ -4,9 +4,11 @@
 
 >#21 - Nesting Components Examples
 
->#22 - Props (using #21 files)
+>#22 - Props (used #21 files)
 
->#23 - Primitive vs Reference Types (using #21 files)
+>#23 - Primitive vs Reference Types (used #21 files)
+
+>#24 - Events (child to parent) (used #21 files)
 
 From the Net Ninja's [Vue JS 2 Tutorials](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa) on YouTube
 
