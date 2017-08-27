@@ -14,6 +14,7 @@ From the Net Ninja's [Vue JS 2 Tutorials](https://www.youtube.com/playlist?list=
 * node: v6.11.1
 * npm: 5.3.0
 * vue-cli: 2.8.2
+* yarn: v0.27.5
 
 ## Build Setup
 
