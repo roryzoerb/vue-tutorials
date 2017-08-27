@@ -5,10 +5,12 @@
 </template>
 
 <script>
+import { bus } from "../main";
 export default {
     props: {
         title: {
-            type: String
+            type: String,
+            required: true
         }
     },
     data () {
@@ -17,9 +19,11 @@ export default {
         }
     },
     methods: {
-        changeTitle: function() {
-            this.$emit('changeTitle', 'View Wizards')
-        }
+      changeTitle: function(){
+        // this.$emit('changeTitle', 'Vue Ninjas');
+        this.title = 'Vue Wizard';
+        bus.$emit('titleChanged', 'Vue Wizard');
+      }
     }
 }
 </script>
