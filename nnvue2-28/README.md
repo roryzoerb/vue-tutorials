@@ -2,7 +2,7 @@
 
 # vue-tutorial
 
->#27 - Slots
+>#28 - Dynamic Components
 
 From the Net Ninja's [Vue JS 2 Tutorials](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa) on YouTube
 
@@ -34,7 +34,7 @@ This Tutorial:
 
 ``` bash
 # simple scaffolding
-vue init webpack-simple nnvue2-27
+vue init webpack-simple nnvue2-28
 
 # install dependencies
 npm install (or Yarn)
