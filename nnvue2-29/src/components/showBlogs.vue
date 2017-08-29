@@ -1,9 +1,9 @@
 <template>
-  <div v-theme:column="'300px'" id="show-blogs">
+  <div v-theme:column="'wide'" id="show-blogs">
     <h1>All Blog Articles</h1>
     <div v-for="blog in blogs" class="single-blog">
-      <h2 v-rainbow>{{ blog.title }}</h2>
-      <article>{{ blog.body }}</article>
+      <h2 v-rainbow>{{ blog.title | to-uppercase }}</h2>
+      <article>{{ blog.body | snippet }}</article>
     </div>
   </div>
 </template>
