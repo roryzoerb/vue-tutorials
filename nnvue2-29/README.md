@@ -18,6 +18,8 @@ yarn add vue-resource
 
 >#35 - Filters (using Tutorial #29 files)
 
+>#36 - Custome Search Filter (using Tutorial #29 files)
+
 From the Net Ninja's [Vue JS 2 Tutorials](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa) on YouTube
 
 ## My Dev Environmet
