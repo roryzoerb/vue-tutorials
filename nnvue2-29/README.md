@@ -26,6 +26,8 @@ yarn add vue-resource
 
 >#39 - Setting up Routing (using Tutorial #29 files)
 
+>#40 - Hash vs History (Routing) (using Tutorial #29 files)
+
 From the Net Ninja's [Vue JS 2 Tutorials](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa) on YouTube
 
 ## My Dev Environmet
