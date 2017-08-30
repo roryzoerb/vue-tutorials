@@ -32,6 +32,8 @@ yarn add vue-resource
 
 >#42 - Route Parameters (using Tutorial #29 files)
 
+>#43 - Posting to Firebase (using Tutorial #29 files)
+
 From the Net Ninja's [Vue JS 2 Tutorials](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa) on YouTube
 
 ## My Dev Environmet

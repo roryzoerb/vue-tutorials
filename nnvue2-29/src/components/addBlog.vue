@@ -5,7 +5,7 @@
         <label>Blog Title:</label>
         <input type="text" v-model.lazy="blog.title" required/>
         <label>Blog Content:</label>
-        <textarea v-model.lazy="blog.content" required></textarea>
+        <textarea v-model.lazy="blog.content" required rows="15"></textarea>
         <div id="checkboxes">
             <label for="">Ninjas</label>
             <input type="checkbox" value="ninjas" v-model="blog.categories"/>
@@ -57,11 +57,12 @@ export default {
   },
   methods: {
       post: function() {
-          this.$http.post("http://jsonplaceholder.typicode.com/posts", {
-              title: this.blog.title,
-              body: this.blog.content,
-              userid: 1
-          }).then(function(data) {
+          this.$http.post("https://tutorial-33ee.firebaseio.com/posts.json", this.blog ).then(function(data) {
+        //   this.$http.post("http://jsonplaceholder.typicode.com/posts", {
+            //   title: this.blog.title,
+            //   body: this.blog.content,
+            //   userid: 1
+        //   }).then(function(data) {
               console.log(data);
               this.submitted = true;
           });
