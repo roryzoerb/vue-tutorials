@@ -21,7 +21,8 @@ export default {
     }
   },
   created() {
-    this.$http.get("http://jsonplaceholder.typicode.com/posts").then(function(data) {
+    // this.$http.get("http://jsonplaceholder.typicode.com/posts").then(function(data) {
+    this.$http.get("https://tutorial-33ee.firebaseio.com/posts.json").then(function(data) {
       console.log(data);
       this.blogs = data.body.slice(0, 10);
     });
